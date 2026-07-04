@@ -1,4 +1,4 @@
-```python
+
 import pandas as pd
 import streamlit as st
 from sklearn.model_selection import train_test_split
@@ -73,4 +73,4 @@ if st.button("Predict Insurance Purchase"):
 
     st.write(f"Probability of NOT buying insurance: {probability[0]:.2f}")
     st.write(f"Probability of BUYING insurance: {probability[1]:.2f}")
-```
+
