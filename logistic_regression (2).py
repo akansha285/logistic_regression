@@ -67,8 +67,9 @@ age = st.number_input(
 
 # Prediction
 if st.button("Predict Insurance Purchase"):
-    prediction = model.predict([[age]])[0]
-    probability = model.predict_proba([[age]])[0]
+   input_data = pd.DataFrame([[age]], columns=['age'])
+   prediction = model.predict(input_data)[0]
+   probability = model.predict_proba(input_data)[0]
 
     st.subheader("Prediction Result")
 
