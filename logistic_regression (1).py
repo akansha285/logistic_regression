@@ -9,7 +9,7 @@ Original file is located at
 <h2 style="color:green" align="center">Predicting if a person would buy life insurnace based on his age using logistic regression</h2>
 """
 
-!pip install streamlit
+
 
 """Above is a binary logistic regression problem as there are only two possible outcomes (i.e. if person buys insurance or he/she doesn't)."""
 
